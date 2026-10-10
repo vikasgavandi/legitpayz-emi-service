@@ -19,4 +19,4 @@ jobs:
     needs: build
     steps:
       - uses: actions/checkout@v4
-      - run: docker build -t legitpayz-emi-servicei .
+      - run: docker build -t legitpayz-emi-service-ci .
